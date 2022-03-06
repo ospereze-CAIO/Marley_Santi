@@ -1,0 +1,16 @@
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--footer-top-row) {
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+	height: 150px;
+}
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--footer-top-row) {
+	margin-bottom: 50px;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--footer-bot-row) {
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+	height: 364px;
+}

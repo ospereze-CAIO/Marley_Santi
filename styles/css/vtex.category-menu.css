@@ -1,0 +1,3 @@
+.itemContainer :global(.vtex-category-menu-2-x-departmentLink) {
+	border-bottom: none;
+}

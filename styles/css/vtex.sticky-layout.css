@@ -1,0 +1,9 @@
+:global(.vtex-category-menu-2-x-container) {
+	background: transparent;
+	height: 80px;
+}
+
+:global(.vtex-category-menu-2-x-itemContainer) {
+	display: flex;
+	align-items: center;
+}

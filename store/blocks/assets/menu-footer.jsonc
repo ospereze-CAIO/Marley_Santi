@@ -1,0 +1,226 @@
+{
+	"vtex.menu@2.x:menu#footer-mobile": {
+		"props": {
+			"orientation": "vertical"
+		},
+		"children": ["menu-item#servicio-al-cliente", "menu-item#catalogo", "menu-item#nuestra-empresa"]
+	},
+
+	// ------------------------------------ SERCIVIO
+	"menu-item#servicio-al-cliente": {
+		"props": {
+			"id": "menu-item-servicio-al-cliente",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"tagTitle": "servicio al cliente",
+				"text": "SERVICIO AL CLIENTE"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu.accordion#servicio-al-cliente"]
+	},
+
+	"vtex.menu@2.x:submenu.accordion#servicio-al-cliente": {
+		"children": ["vtex.menu@2.x:menu#servicio-al-cliente-accordion"]
+	},
+	"vtex.menu@2.x:menu#servicio-al-cliente-accordion": {
+		"props": {
+			"orientation": "vertical"
+		},
+		"children": ["menu-item#registrese", "menu-item#sesion", "menu-item#contactenos"]
+	},
+	"menu-item#registrese": {
+		"props": {
+			"id": "menu-item-registrese",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "registrese",
+				"text": "REGÍSTRESE"
+			}
+		}
+	},
+
+	"menu-item#sesion": {
+		"props": {
+			"id": "menu-item-sesion",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "sesion",
+				"text": "INICIAR SESIÓN"
+			}
+		}
+	},
+	"menu-item#contactenos": {
+		"props": {
+			"id": "menu-item-contactenos",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "contactenos",
+				"text": "CONTÁCTENOS"
+			}
+		}
+	},
+	// --------------------------------------------- CATALOGO
+	"menu-item#catalogo": {
+		"props": {
+			"id": "menu-item-catalogo",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"tagTitle": "catalogo",
+				"text": "CATÁLOGO"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu.accordion#catalogo"]
+	},
+
+	"vtex.menu@2.x:submenu.accordion#catalogo": {
+		"children": ["vtex.menu@2.x:menu#servicio-al-cliente-accordion"]
+	},
+	"vtex.menu@2.x:menu#catalogo-accordion": {
+		"props": {
+			"orientation": "vertical"
+		},
+		"children": [
+			"menu-item#audifonos",
+			"menu-item#parlantes",
+			"menu-item#tornamesas",
+			"menu-item#accesorios"
+		]
+	},
+	"menu-item#audifonos": {
+		"props": {
+			"id": "menu-item-audifonos",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "audifonos",
+				"text": "AUDIFONOS"
+			}
+		}
+	},
+
+	"menu-item#parlantes": {
+		"props": {
+			"id": "menu-item-parlantes",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "parlantes",
+				"text": "PARLANTES"
+			}
+		}
+	},
+	"menu-item#tornamesas": {
+		"props": {
+			"id": "menu-item-tornamesas",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "tornamesas",
+				"text": "TORNAMESAS"
+			}
+		}
+	},
+	"menu-item#accesorios": {
+		"props": {
+			"id": "menu-item-accesorios",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "accesorios",
+				"text": "ACCESORIOS"
+			}
+		}
+	},
+
+	///////////////////////////////// EMPPRESA
+
+	"menu-item#nuestra-empresa": {
+		"props": {
+			"id": "menu-item-nuestra-empresa",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"tagTitle": "nuestra-empresa",
+				"text": "NUESTRA EMPRESA"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu.accordion#nuestra-empresa"]
+	},
+
+	"vtex.menu@2.x:submenu.accordion#nuestra-empresa": {
+		"children": ["vtex.menu@2.x:menu#nuestra-empresa-accordion"]
+	},
+	"vtex.menu@2.x:menu#nuestra-empresa-accordion": {
+		"props": {
+			"orientation": "vertical"
+		},
+		"children": ["menu-item#sobre", "menu-item#terminos"]
+	},
+	"menu-item#sobre": {
+		"props": {
+			"id": "menu-item-sobre",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "sobre",
+				"text": "SOBRE THE HOUSE OF MARLEY"
+			}
+		}
+	},
+
+	"menu-item#terminos": {
+		"props": {
+			"id": "menu-item-terminos",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "terminos",
+				"text": "TÉRMINOS Y CONDICIONES"
+			}
+		}
+	}
+}

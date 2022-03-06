@@ -1,0 +1,51 @@
+.clearLink--Shelf-product-summary-search :global(.vtex-button) {
+	background-color: #ffffff;
+	color: #000;
+	border: 1px solid #000;
+	margin: 0 auto;
+	max-width: 170px;
+}
+.clearLink--Shelf-product-summary-search :global(.vtex-button):hover {
+	background-color: #000;
+	color: #fff;
+}
+.element--product-summary-shelf-mobile :global(.vtex-product-summary-2-x-brandName) {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+.element--product-summary-shelf-mobile :global(.vtex-store-components-3-x-sellingPriceValue) {
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.6px;
+	color: #000000;
+	text-transform: uppercase;
+	opacity: 1;
+}
+.element--product-summary-shelf-mobile :global(.vtex-product-summary-2-x-listPriceContainer) {
+	text-align: left;
+	text-decoration: line-through;
+	font-size: 16px;
+	letter-spacing: 0px;
+	color: #000000;
+	text-transform: uppercase;
+	opacity: 1;
+}
+.element--product-summary-shelf-mobile :global(.vtex-button) {
+	border: 1px solid #000;
+	background: #fff;
+	opacity: 1;
+	color: #000;
+	font-weight: 700;
+	width: 170px;
+	height: 35px;
+	margin: 0 auto;
+	border-radius: 0;
+}
+.element--product-summary-shelf-mobile :global(.vtex-button):hover {
+	background: #000;
+	color: #fff;
+}

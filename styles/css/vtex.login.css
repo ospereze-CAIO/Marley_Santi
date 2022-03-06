@@ -1,0 +1,5 @@
+:global(.vtex-store-components-3-x-shareSocialIcon--facebook) circle,
+:global(.vtex-store-components-3-x-shareSocialIcon--whatsapp) circle,
+:global(.vtex-store-components-3-x-shareSocialIcon--pinterest) circle {
+	fill: #000;
+}

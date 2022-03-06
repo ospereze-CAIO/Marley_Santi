@@ -1,0 +1,95 @@
+{
+	"slider-layout#home-infocards": {
+		"props": {
+			"blockClass": "home-infocard",
+			"showPaginationDots": "always",
+			"showNavigationArrows": "always",
+			"infinite": true,
+			"arrowSize": 18,
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			}
+		}
+	},
+	"slider-layout#infocard-audifonos": {
+		"props": {
+			"blockClass": "infocard-audifonos",
+			"showPaginationDots": "always",
+			"showNavigationArrows": "always",
+			"infinite": true,
+			"arrowSize": 18,
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			}
+		}
+	},
+	"slider-layout#infocard-parlantes": {
+		"props": {
+			"blockClass": "infocard-parlantes",
+			"showPaginationDots": "always",
+			"showNavigationArrows": "always",
+			"infinite": true,
+			"arrowSize": 18,
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			}
+		}
+	},
+	"slider-layout#infocard-tornamesas": {
+		"props": {
+			"blockClass": "infocard-tornamesas",
+			"showPaginationDots": "always",
+			"showNavigationArrows": "always",
+			"infinite": true,
+			"arrowSize": 18,
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			}
+		}
+	},
+
+	"slider-layout#infocard-bot": {
+		"props": {
+			"blockClass": "info-card-#infocard-bot",
+			"showPaginationDots": "never",
+			"showNavigationArrows": "never",
+			"infinite": true,
+			"itemsPerPage": {
+				"desktop": 5,
+				"tablet": 3,
+				"phone": 2
+			}
+		}
+	},
+	// slider logos mobile
+
+	"slider-layout#logos-home": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 4,
+				"tablet": 2,
+				"phone": 1
+			},
+			"infinite": true,
+			"showNavigationArrows": "never",
+			"showPaginationDots": "never",
+			"blockClass": "logos-mobile-home"
+		},
+		"children": [
+			"flex-layout.row#row-icono-uno",
+			"flex-layout.row#row-icono-dos",
+			"flex-layout.row#row-icono-tres",
+			"flex-layout.row#row-icono-cuatro"
+		]
+	}
+
+	// ======================================================== PLP
+}

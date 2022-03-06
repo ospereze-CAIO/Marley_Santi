@@ -1,0 +1,191 @@
+{
+	"rich-text#header-top": {
+		"props": {
+			"blockClass": "text-header-top",
+			"text": "¡Aprovecha! Despacho gratis a todo Chile continental por compras superiores a $75.000",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "p"
+		}
+	},
+	"rich-text#init-mns": {
+		"props": {
+			"blockClass": "init-mns",
+			"text": "ACTUALMENTE PLANTANDO EN: __SELVA AMAZÓNICA__",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "p"
+		}
+	},
+	"rich-text#init-footer": {
+		"props": {
+			"blockClass": "init-mns",
+			"text": "SE EL PRIMERO EN ENTERARTE DE NUESTRAS NOVEDADES Y OFERTAS",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-heading-1"
+		}
+	},
+	"rich-text#foot-footer": {
+		"props": {
+			"blockClass": "foot-footer",
+			"text": "© The House of Marley 2021. Todos los derechos reservados. Desarrollado y Operado por **Tekpro eCommerce**",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "p"
+		}
+	},
+	"rich-text#iconos-uno": {
+		"props": {
+			"blockClass": "iconos-text",
+			"text": "Despachamos en\n  bolsas compostables",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#iconos-dos": {
+		"props": {
+			"blockClass": "iconos-text",
+			"text": "12 cuotas \n sin interés",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#iconos-tres": {
+		"props": {
+			"blockClass": "iconos-text",
+			"text": "Despacho gratis por \n compras superiores a $75.000",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#iconos-cuatro": {
+		"props": {
+			"blockClass": "iconos-text",
+			"text": "1 año de \n garantía",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#servicio-cliente-top": {
+		"props": {
+			"blockClass": "text-footer-title",
+			"text": "__SERVICIO \n AL CLIENTE__",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#servicio-cliente-1": {
+		"props": {
+			"blockClass": "text-footer-cont",
+			"text": "REGÍSTRESE",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#servicio-cliente-2": {
+		"props": {
+			"blockClass": "text-footer-cont",
+			"text": "INICIAR SESIÓN",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#servicio-cliente-3": {
+		"props": {
+			"blockClass": "text-footer-cont",
+			"text": "CONTÁCTENOS",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#catalogos-top": {
+		"props": {
+			"blockClass": "text-footer-title",
+			"text": "__CATÁLOGO__",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#catalogos-1": {
+		"props": {
+			"blockClass": "text-footer-cont",
+			"text": "AUDÍFONOS",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#catalogos-2": {
+		"props": {
+			"blockClass": "text-footer-cont",
+			"text": "PARLANTE",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#catalogos-3": {
+		"props": {
+			"blockClass": "text-footer-cont",
+			"text": "TORNAMESAS",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#catalogos-4": {
+		"props": {
+			"blockClass": "text-footer-cont",
+			"text": "ACCESORIOS",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#empresa-top": {
+		"props": {
+			"blockClass": "text-footer-title",
+			"text": "__NUESTRA EMPRESA__",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#empresa-1": {
+		"props": {
+			"blockClass": "text-footer-cont",
+			"text": "SOBRE THE HOUSE OF MARLEY",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#empresa-2": {
+		"props": {
+			"blockClass": "text-footer-cont",
+			"text": "TÉRMINOS Y CONDICIONES",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	},
+	"rich-text#empresa-3": {
+		"props": {
+			"blockClass": "text-footer-cont-fin",
+			"text": "Nuestros métodos de pago son 100% seguros",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "p"
+		}
+	}
+}

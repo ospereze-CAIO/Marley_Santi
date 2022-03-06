@@ -1,0 +1,42 @@
+{
+	"store.home": {
+		"blocks": [
+			"responsive-layout.desktop#home",
+			"responsive-layout.tablet#home",
+			"responsive-layout.phone#home"
+		]
+	},
+	"responsive-layout.desktop#home": {
+		"children": [
+			"list-context.info-card-list#home",
+			"flex-layout.row#row-iconos-general",
+			"list-context.info-card-list#home-audifonos",
+			"list-context.info-card-list#home-perlantes",
+			"list-context.info-card-list#home-tornamesas",
+			"flex-layout.row#row-shelf",
+			"flex-layout.row#infocard-bot"
+		]
+	},
+	"responsive-layout.tablet#home": {
+		"children": [
+			"list-context.info-card-list#home",
+			"slider-layout#logos-home",
+			"list-context.info-card-list#home-audifonos",
+			"list-context.info-card-list#home-perlantes",
+			"list-context.info-card-list#home-tornamesas",
+			"flex-layout.row#row-shelf-mobile",
+			"flex-layout.row#infocard-bot-mobile"
+		]
+	},
+	"responsive-layout.phone#home": {
+		"children": [
+			"list-context.info-card-list#home",
+			"slider-layout#logos-home",
+			"list-context.info-card-list#home-audifonos",
+			"list-context.info-card-list#home-perlantes",
+			"list-context.info-card-list#home-tornamesas",
+			"flex-layout.row#row-shelf-mobile",
+			"flex-layout.row#infocard-bot-mobile"
+		]
+	}
+}

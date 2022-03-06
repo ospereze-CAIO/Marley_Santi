@@ -1,0 +1,12 @@
+{
+	"footer-layout.desktop": {
+		"children": [
+			"flex-layout.row#footer-top",
+			"flex-layout.row#footer-bot",
+			"flex-layout.row#footer-foot"
+		],
+		"props": {
+			"blockClass": "main-footer"
+		}
+	}
+}

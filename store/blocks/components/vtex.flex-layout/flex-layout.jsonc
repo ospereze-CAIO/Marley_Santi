@@ -1,0 +1,228 @@
+{
+	"flex-layout.row#init-mns": {
+		"props": {
+			"blockClass": "row-init-mns",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["rich-text#init-mns"]
+	},
+
+	"flex-layout.row#searhc-icon": {
+		"props": {
+			"blockClass": "row-init-mns",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["image#search-icon"]
+	},
+	"flex-layout.row#row-iconos-general": {
+		"props": {
+			"blockClass": "row-iconos-general",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"colGap": 4,
+			"preventVerticalStretch": true
+		},
+		"children": [
+			"flex-layout.col#col-iconos-uno",
+			"flex-layout.col#col-iconos-dos",
+			"flex-layout.col#col-iconos-tres",
+			"flex-layout.col#col-iconos-cuatro"
+		]
+	},
+	"flex-layout.col#col-iconos-uno": {
+		"props": {
+			"blockClass": "col-iconos-line",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"borderWidth": 1,
+			"border": "right"
+		},
+		"children": ["flex-layout.row#row-icono-uno"]
+	},
+	"flex-layout.col#col-iconos-dos": {
+		"props": {
+			"blockClass": "col-iconos-line",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"borderWidth": 1,
+			"border": "right"
+		},
+		"children": ["flex-layout.row#row-icono-dos"]
+	},
+	"flex-layout.col#col-iconos-tres": {
+		"props": {
+			"blockClass": "col-iconos-line",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"borderWidth": 1,
+			"border": "right"
+		},
+		"children": ["flex-layout.row#row-icono-tres"]
+	},
+	"flex-layout.col#col-iconos-cuatro": {
+		"props": {
+			"blockClass": "col-iconos-noline",
+			"horizontalAlign": "center",
+			"verticalAlign": "center"
+		},
+		"children": ["flex-layout.row#row-icono-cuatro"]
+	},
+	"flex-layout.row#row-icono-uno": {
+		"props": {
+			"blockClass": "row-icono",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["image#icono-bolsa", "rich-text#iconos-uno"]
+	},
+	"flex-layout.row#row-icono-dos": {
+		"props": {
+			"blockClass": "row-icono",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["image#icono-tarjetas", "rich-text#iconos-dos"]
+	},
+	"flex-layout.row#row-icono-tres": {
+		"props": {
+			"blockClass": "row-icono",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["image#icono-camion", "rich-text#iconos-tres"]
+	},
+	"flex-layout.row#row-icono-cuatro": {
+		"props": {
+			"blockClass": "row-icono",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["image#icono-hoja", "rich-text#iconos-cuatro"]
+	},
+	"flex-layout.row#row-shelf": {
+		"props": {
+			"blockClass": "row-shelf",
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["shelf#shelf-home"]
+	},
+	"flex-layout.row#infocard-bot": {
+		"props": {
+			"blockClass": "infocard-bot",
+			"horizontalAlign": "center",
+			"verticalAlign": "center"
+		},
+		"children": [
+			"flex-layout.col#col-infocard1",
+			"flex-layout.col#col-infocard2",
+			"flex-layout.col#col-infocard3"
+		]
+	},
+	"flex-layout.col#col-infocard1": {
+		"props": {
+			"blockClass": "infocard-bot",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"width": "33.33%"
+		},
+		"children": ["list-context.info-card-list#infocard-bot"]
+	},
+	"flex-layout.col#col-infocard2": {
+		"props": {
+			"blockClass": "infocard-bot",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"width": "33.33%"
+		},
+		"children": ["list-context.info-card-list#infocard-bot-1"]
+	},
+	"flex-layout.col#col-infocard3": {
+		"props": {
+			"blockClass": "infocard-bot",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"width": "33.33%"
+		},
+		"children": ["list-context.info-card-list#infocard-bot-2"]
+	},
+	"flex-layout.row#row-shelf-mobile": {
+		"props": {
+			"blockClass": "row-shelf-mobile",
+			"horizontalAlign": "center",
+			"preventVerticalStretch": true,
+			"fullWidth": false
+		},
+		"children": ["shelf#shelf-home-mobile"]
+	},
+	"flex-layout.row#infocard-bot-mobile": {
+		"props": {
+			"blockClass": "infocard-bot-mobile",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true
+		},
+		"children": ["flex-layout.col#col-infocard1-mobile"]
+	},
+	"flex-layout.col#col-infocard1-mobile": {
+		"props": {
+			"blockClass": "infocard-bot",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true
+		},
+		"children": [
+			"list-context.info-card-list#infocard-bot",
+			"list-context.info-card-list#infocard-bot-1",
+			"list-context.info-card-list#infocard-bot-2"
+		]
+	},
+
+	// -=====================================================
+	"flex-layout.row#init-mns-pdp": {
+		"props": {
+			"blockClass": "row-init-mns-pdp",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["rich-text#init-mns"]
+	},
+	"flex-layout.row#img-plp": {
+		"props": {
+			"blockClass": "img-plp",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["image#banner-plp"]
+	}
+}

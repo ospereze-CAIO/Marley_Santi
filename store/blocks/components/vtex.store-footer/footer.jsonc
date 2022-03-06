@@ -1,0 +1,289 @@
+{
+	"footer": {
+		"blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+	},
+
+	"flex-layout.row#footer-top": {
+		"props": {
+			"blockClass": "footer-top-row"
+		},
+		"children": ["flex-layout.col#footer-top"]
+	},
+
+	"flex-layout.col#footer-top": {
+		"props": {
+			"blockClass": "footer-top-col"
+		},
+		"children": ["flex-layout.row#footer-mns-top"]
+	},
+
+	"flex-layout.row#footer-mns-top": {
+		"props": {
+			"blockClass": "footer-mns-top",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": false,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["rich-text#init-footer", "flex-layout.row#footer-space-top"]
+	},
+
+	"flex-layout.row#footer-space-top": {
+		"props": {
+			"blockClass": "row-footer-top",
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["newsletter-form"]
+	},
+	"newsletter-form": {
+		"children": ["newsletter-input-email", "newsletter-submit"],
+		"props": {}
+	},
+	"newsletter-input-email": {
+		"props": {
+			"placeholderText": "Ingresa tu email aquí"
+		}
+	},
+	"newsletter-submit": {
+		"props": {
+			"submitButtonLabel": "INSCRIBIRSE"
+		}
+	},
+
+	// ========================================================
+
+	"flex-layout.row#footer-bot": {
+		"props": {
+			"blockClass": "footer-bot-row",
+			"fullWidth": true
+		},
+		"children": ["flex-layout.col#footer-bot"]
+	},
+
+	"flex-layout.col#footer-bot": {
+		"props": {
+			"blockClass": "footer-secundario-col",
+			"horizontalAlign": "center",
+			"verticalAlign": "top"
+		},
+		"children": ["flex-layout.row#footer-bot-logo"]
+	},
+	"flex-layout.row#footer-bot-logo": {
+		"props": {
+			"blockClass": "footer-bot-logo",
+			"horizontalAlign": "center",
+			"fullWidth": true
+		},
+		"children": [
+			"flex-layout.col#col-logos-img",
+			"flex-layout.col#col-servicio-cliente",
+			"flex-layout.col#col-catalogos",
+			"flex-layout.col#col-empresa"
+		]
+	},
+	"flex-layout.col#col-logos-img": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "top"
+		},
+		"children": ["logo#footer", "flex-layout.row#row-logos"]
+	},
+
+	"flex-layout.row#row-logos": {
+		"props": {
+			"blockClass": "row-bot-logo"
+		},
+		"children": ["image#facebook", "image#instagram", "image#youtube"]
+	},
+	"flex-layout.col#col-servicio-cliente": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "top",
+			"width": "25%"
+		},
+		"children": [
+			"rich-text#servicio-cliente-top",
+			"rich-text#servicio-cliente-1",
+			"rich-text#servicio-cliente-2",
+			"rich-text#servicio-cliente-3"
+		]
+	},
+
+	"flex-layout.col#col-catalogos": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "top",
+			"width": "25%"
+		},
+		"children": [
+			"rich-text#catalogos-top",
+			"rich-text#catalogos-1",
+			"rich-text#catalogos-2",
+			"rich-text#catalogos-3",
+			"rich-text#catalogos-4"
+		]
+	},
+	"flex-layout.col#col-empresa": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "top",
+			"width": "25%"
+		},
+		"children": [
+			"rich-text#empresa-top",
+			"rich-text#empresa-1",
+			"rich-text#empresa-2",
+			"flex-layout.col#col-empresa-img"
+		]
+	},
+	"flex-layout.col#col-empresa-img": {
+		"props": {
+			"blockClass": "empresa-img",
+			"horizontalAlign": "center",
+			"verticalAlign": "top"
+		},
+		"children": ["rich-text#empresa-3", "flex-layout.row#empresa-img"]
+	},
+
+	"flex-layout.row#empresa-img": {
+		"props": {
+			"blockClass": "empresa-img",
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true
+		},
+		"children": ["image#mercado-pago", "image#webpay"]
+	},
+	"flex-layout.row#footer-foot": {
+		"props": {
+			"blockClass": "footer-foot",
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true
+		},
+		"children": ["rich-text#foot-footer"]
+	},
+
+	// -----------------------------------------------------------------MOBILE
+
+	"flex-layout.row#footer-top-Mobile": {
+		"props": {
+			"blockClass": "footer-top-row-Mobile"
+		},
+		"children": ["flex-layout.col#footer-top-Mobile"]
+	},
+
+	"flex-layout.col#footer-top-Mobile": {
+		"props": {
+			"blockClass": "footer-top-col-Mobile"
+		},
+		"children": ["flex-layout.row#footer-mns-top-Mobile"]
+	},
+
+	"flex-layout.row#footer-mns-top-Mobile": {
+		"props": {
+			"blockClass": "footer-mns-top-Mobile",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": false,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["rich-text#init-footer", "flex-layout.row#footer-newsletter-top-Mobile"]
+	},
+
+	"flex-layout.row#footer-newsletter-top-Mobile": {
+		"props": {
+			"blockClass": "row-footer-top-Mobile",
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["newsletter-form#Mobile"]
+	},
+	"newsletter-form#Mobile": {
+		"children": ["newsletter-input-email#Mobile", "newsletter-submit#Mobile"],
+		"props": {}
+	},
+	"newsletter-input-email#Mobile": {
+		"props": {
+			"placeholderText": "Ingresa tu email aquí"
+		}
+	},
+	"newsletter-submit#Mobile": {
+		"props": {
+			"submitButtonLabel": "INSCRIBIRSE"
+		}
+	},
+
+	"flex-layout.row#footer-bot-Mobile": {
+		"props": {
+			"blockClass": "footer-bot-row-Mobile",
+			"fullWidth": true
+		},
+		"children": ["flex-layout.col#footer-bot-Mobile"]
+	},
+
+	"flex-layout.col#footer-bot-Mobile": {
+		"props": {
+			"blockClass": "footer-secundario-col-Mobile",
+			"horizontalAlign": "center",
+			"verticalAlign": "top"
+		},
+		"children": ["flex-layout.row#footer-bot-logo-Mobile"]
+	},
+	"flex-layout.row#footer-bot-logo-Mobile": {
+		"props": {
+			"blockClass": "footer-bot-logo-Mobile",
+			"horizontalAlign": "center",
+			"fullWidth": true
+		},
+		"children": [
+			"flex-layout.col#col-logos-img-Mobile",
+			"vtex.menu@2.x:menu#footer-mobile",
+			"flex-layout.row#pagos-img-Mobile"
+		]
+	},
+	"flex-layout.col#col-logos-img-Mobile": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "top"
+		},
+		"children": ["flex-layout.row#row-bot-logo-Mobile", "flex-layout.row#row-logos-Mobile"]
+	},
+
+	"flex-layout.row#row-bot-logo-Mobile": {
+		"props": {
+			"blockClass": "row-bot-logo-Mobile"
+		},
+		"children": ["image#footer-2"]
+	},
+	"flex-layout.row#row-logos-Mobile": {
+		"props": {
+			"blockClass": "row-bot-logo-Mobile"
+		},
+		"children": ["image#facebook", "image#instagram", "image#youtube"]
+	},
+
+	"flex-layout.row#pagos-img-Mobile": {
+		"props": {
+			"blockClass": "pagos-img",
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true
+		},
+		"children": ["image#mercado-pago", "image#webpay"]
+	},
+	"flex-layout.row#footer-foot-Mobile": {
+		"props": {
+			"blockClass": "footer-foot",
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true
+		},
+		"children": ["rich-text#foot-footer"]
+	}
+}

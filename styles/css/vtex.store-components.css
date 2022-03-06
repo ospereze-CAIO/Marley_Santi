@@ -1,0 +1,66 @@
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+	background: #fafafc;
+	border: 1px solid #e4e4eb;
+	border-radius: 21px;
+	opacity: 1;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--iconos-text) {
+	color: #000;
+	display: flex;
+	align-items: center;
+}
+
+.container :global(.vtex-flex-layout-0-x-flexRow--footer-bot-row) {
+	width: 100vw;
+	height: 364px;
+}
+
+.searchBarContainer {
+	padding: 0;
+	margin: auto 0;
+}
+.searchIcon {
+	width: 24px;
+	height: 24px;
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+	border: none;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+	padding: 0;
+}
+
+.productImage :global(.vtex-store-components-3-x-productImageTag--main) {
+	max-width: 400px;
+}
+
+.productImagesGallerySlide {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.productDescriptionContainer {
+	padding-left: 10px;
+}
+/* =============================================== TITULO DE DESCRIPCION */
+/* .productDescriptionContainer :global(.vtex-store-components-3-x-productDescriptionTitle) {
+	display: none;
+} */
+
+.productDescriptionContainer :global(.vtex-store-components-3-x-productDescriptionTitle),
+.productDescriptionContainer :global(.vtex-store-components-3-x-productDescriptionText) {
+	color: #000;
+}
+
+.discountInsideContainer {
+	min-width: 50px;
+	height: 24px;
+	background: #c32032;
+	color: #fff;
+	font-weight: 700;
+	font-size: 14px;
+	z-index: 10;
+}

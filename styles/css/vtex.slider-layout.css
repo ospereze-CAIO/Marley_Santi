@@ -1,0 +1,161 @@
+.slide--home-infocard :global(.vtex-slider-layout-0-x-infoCardContainer--home-infocard) {
+	width: 100vw;
+	height: 90vw;
+	max-height: 700px;
+}
+.slide--infocard-audifonos :global(.vtex-slider-layout-0-x-infoCardContainer--infocard-audifonos),
+.slide--infocard-parlantes :global(.vtex-slider-layout-0-x-infoCardContainer--infocard-parlantes),
+.slide--infocard-tornamesas
+	:global(.vtex-slider-layout-0-x-infoCardContainer--infocard-tornamesas) {
+	width: 100vw;
+	height: 440px;
+}
+
+:global(.vtex-category-menu-2-x-departmentLink) {
+	color: #1c1c28;
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	opacity: 1;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+	bottom: 40px;
+}
+
+.paginationDotsContainer :global(.vtex-slider-layout-0-x-paginationDot--home-infocard) {
+	bottom: 50px;
+	margin: 16px 16px;
+	background-color: #ffffff;
+	opacity: 54%;
+}
+.paginationDotsContainer :global(.vtex-slider-layout-0-x-paginationDot--home-infocard--isActive) {
+	bottom: 50px;
+	background-color: #ffffff;
+	opacity: 100%;
+}
+
+.infoCardContainer--home-infocard :global(.vtex-slider-layout-0-x-infoCardHeadline--home-infocard) {
+	color: #ffffff;
+}
+
+.infoCardContainer--home-infocard :global(.vtex-button) {
+	color: #ffffff;
+	background-color: #000;
+	border: 1px solid #000;
+	width: 168px;
+	height: 36px;
+	font-size: 14px;
+}
+
+.infoCardContainer--home-infocard :global(.vtex-button):hover {
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	width: 168px;
+	height: 36px;
+	font-size: 14px;
+}
+
+:global(.vtex-slider-layout-0-x-caretIcon--home-infocard) {
+	color: #ffffff;
+	margin: 20px;
+}
+
+.infoCardTextContainer--infocard-audifonos
+	:global(.vtex-slider-layout-0-x-infoCardHeadline--infocard-audifonos) {
+	color: #ffffff;
+}
+
+.infoCardTextContainer--infocard-audifonos :global(.vtex-button) {
+	color: #ffffff;
+	background-color: #000;
+	border: 1px solid #000;
+	width: 168px;
+	height: 36px;
+	font-size: 14px;
+}
+
+.infoCardTextContainer--infocard-audifonos :global(.vtex-button):hover {
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	width: 168px;
+	height: 36px;
+	font-size: 14px;
+}
+.infoCardHeadline--home-infocard {
+	width: 300px;
+}
+
+.infoCardContainer--home-infocard :global(.vtex-slider-layout-0-x-infoCardTextContainer),
+.infoCardContainer--infocard-audifonos
+	:global(.vtex-slider-layout-0-x-infoCardTextContainer--infocard-audifonos),
+.infoCardContainer--infocard-parlantes
+	:global(.vtex-slider-layout-0-x-infoCardTextContainer--infocard-parlantes),
+.infoCardContainer--infocard-tornamesas
+	:global(.vtex-slider-layout-0-x-infoCardTextContainer--infocard-tornamesas) {
+	margin: 10vw;
+	width: 100vw;
+	display: flex;
+	align-items: left;
+}
+
+.infoCardTextContainer--infocard-parlantes
+	:global(.vtex-slider-layout-0-x-infoCardHeadline--infocard-parlantes) {
+	color: #ffffff;
+}
+
+.infoCardTextContainer--infocard-parlantes :global(.vtex-button) {
+	color: #ffffff;
+	background-color: #000;
+	border: 1px solid #000;
+	width: 168px;
+	height: 36px;
+	font-size: 14px;
+}
+
+.infoCardTextContainer--infocard-parlantes :global(.vtex-button):hover {
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	width: 168px;
+	height: 36px;
+	font-size: 14px;
+}
+
+.infoCardTextContainer--infocard-tornamesas
+	:global(.vtex-slider-layout-0-x-infoCardHeadline--infocard-tornamesas) {
+	color: #ffffff;
+}
+
+.infoCardTextContainer--infocard-tornamesas :global(.vtex-button) {
+	border: 1px solid #000;
+	color: #ffffff;
+	background-color: #000;
+	border: 1px solid #000;
+	width: 168px;
+	height: 36px;
+	font-size: 14px;
+}
+
+.infoCardTextContainer--infocard-tornamesas :global(.vtex-button):hover {
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	width: 168px;
+	height: 36px;
+	font-size: 14px;
+}
+
+.slide--logos-mobile-home {
+	height: 140px;
+}
+
+.infoCardImage {
+	max-height: 170px;
+	/* max-width: 300px; */
+}
+
+/* =======================================plp */

@@ -1,0 +1,20 @@
+{
+	"category-menu": {
+		"props": {
+			"showAllDepartments": false,
+			"showSubcategories": true,
+			"menuDisposition": "center",
+			"departments": []
+			// "mobileMode": false
+		}
+	},
+	"category-menu#mobile": {
+		"props": {
+			"showAllDepartments": true,
+			"showSubcategories": true,
+			"menuDisposition": "right",
+			"departments": [],
+			"mobileMode": true
+		}
+	}
+}

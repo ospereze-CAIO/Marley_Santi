@@ -1,0 +1,629 @@
+.flexRow--text-header-top {
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+}
+.flexRow--text-header-top :global(.vtex-rich-text-0-x-wrapper--text-header-top) {
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.flexRow--row-header-principal :global(.vtex-store-components-3-x-searchBarContainer) {
+	display: flex;
+	align-items: center;
+}
+
+.flexRow--row-header-principal {
+	display: flex;
+	align-items: center;
+	background-color: #ffffff;
+}
+
+.flexRow--row-header-principal :global(.vtex-store-components-3-x-container) {
+	display: flex;
+	align-items: center;
+}
+
+.flexRow--row-init-mns :global(.vtex-flex-layout-0-x-flexRowContent--row-init-mns) {
+	background: #004701;
+	padding: 0 10px;
+	max-height: 70px;
+	color: #ffffff;
+}
+
+.flexRow--row-init-mns :global(.vtex-rich-text-0-x-paragraph--init-mns) {
+	margin: 0;
+	color: #ffffff;
+	font-size: 21px;
+}
+
+.flexRow--footer-mns-top :global(.vtex-rich-text-0-x-paragraph--init-mns) {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.flexRow--footer-top-row :global(.vtex-rich-text-0-x-wrapper--init-mns) {
+	margin: 0px 50px;
+}
+
+.flexRow :global(.vtex-flex-layout-0-x-flexRowContent--row-iconos-general) {
+	margin: 20px 0px;
+	padding: 0px 50px;
+}
+
+.flexRow :global(.vtex-flex-layout-0-x-flexCol--col-iconos-line) {
+	padding: 0px 10px;
+	margin: 0px 10px;
+}
+
+.flexRow--row-iconos-general :global(.vtex-store-components-3-x-imageElement) {
+	width: 64px;
+	height: 64px;
+}
+
+.flexRow--row-iconos-general :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
+.flexRow--row-iconos-general :global(.vtex-rich-text-0-x-paragraph) {
+	font-size: 16px;
+}
+.flexRow--row-header-principal :global(.vtex-minicart-2-x-minicartQuantityBadgeDefault) {
+	left: 40px;
+	top: 0px;
+	width: 24px;
+	height: 24px;
+	border-radius: 6px;
+}
+.flexRow--row-header-principal :global(.vtex-minicart-2-x-cartIcon),
+:global(.vtex-login-2-x-profileIcon) {
+	width: 24px;
+	height: 24px;
+	color: #000000;
+}
+
+:global(.vtex-shelf-1-x-title) {
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 0.42px;
+	color: #1c1c28;
+	opacity: 1;
+}
+
+.flexRow--footer-bot-row :global(.vtex-flex-layout-0-x-flexColChild--footer-secundario-col) {
+	width: 80%;
+}
+
+.flexRow--footer-bot-logo :global(.vtex-rich-text-0-x-paragraph--text-footer-title) {
+	margin: 0px;
+	padding: 0px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: left;
+}
+.flexRow--footer-bot-logo :global(.vtex-rich-text-0-x-paragraph--text-footer-cont) {
+	color: #ffffff;
+	font-size: 16px;
+	margin: 16px 0px 0px 0px;
+}
+.flexRow--footer-bot-logo :global(.vtex-rich-text-0-x-paragraph--text-footer-cont-fin) {
+	color: #ffffff;
+	font-size: 10px;
+	margin: 16px 0px 0px 0px;
+}
+
+.flexRow--footer-bot-logo :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	display: flex;
+	justify-content: center;
+}
+
+.flexRow--footer-bot-logo :global(.vtex-flex-layout-0-x-flexColChild) {
+	display: flex;
+	justify-content: initial;
+}
+
+.flexColChild--footer-secundario-col :global(.vtex-flex-layout-0-x-flexCol--empresa-img) {
+	margin: 0;
+	padding: 0;
+	justify-content: flex-end;
+	height: 200px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-bot-logo) {
+	margin-top: 5px;
+	gap: 55px;
+}
+
+.flexRowContent--row-icono {
+	display: flex;
+	align-items: center;
+}
+
+.flexRow--row-header-principal :global(.vtex-store-components-3-x-sellingPriceValue) {
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+.flexRow--row-header-principal :global(.vtex-product-summary-2-x-brandName) {
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+}
+.flexRow--row-header-principal :global(.vtex-product-summary-2-x-listPrice) {
+	color: transparent;
+}
+.flexRow--row-shelf :global(.vtex-button) {
+	border: 1px solid #000;
+	background: #fff;
+	opacity: 1;
+	color: #000;
+	font-weight: 700;
+	width: 170px;
+	height: 35px;
+	margin: 0 auto;
+	border-radius: 0;
+}
+.flexRow--row-shelf :global(.vtex-button):hover {
+	background-color: #000;
+	color: #fff;
+	border-color: #000;
+}
+
+.flexRowContent--row-footer-top :global(.vtex-store-newsletter-1-x-newsletterForm) {
+	display: flex;
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-footer-top) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flexRow--infocard-bot :global(.vtex-slider-layout-0-x-infoCardContainer) {
+	display: block;
+	padding: 0 50px;
+}
+.flexRow--infocard-bot :global(.vtex-slider-layout-0-x-infoCardImage) {
+	max-width: 400px;
+}
+
+.flexColChild--infocard-bot :global(.vtex-button) {
+	border: 1px solid #000;
+	background-color: #000;
+	color: #fff;
+}
+
+.flexColChild--infocard-bot :global(.vtex-button):hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.flexRow--row-shelf :global(.vtex-slider-0-x-dotsContainer) {
+	display: none;
+}
+
+.flexRow--row-footer-top :global(.vtex-button) {
+	border-radius: 0px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.flexRow--row-footer-top :global(.vtex-button):hover {
+	background-color: #000;
+	color: #fff;
+}
+.flexRow--row-footer-top :global(.vtex-styleguide-9-x-input) {
+	background-color: #4a4a4a;
+	border-color: transparent;
+}
+.flexRow--row-footer-top :global(.vtex-input-prefix__group) {
+	border: none;
+	border-radius: 0px;
+}
+.flexRow--row-footer-top :global(.vtex-styleguide-9-x-input) {
+	border: none;
+	border-radius: 0px;
+}
+.flexRow--row-shelf {
+	max-height: 650px;
+}
+
+/*  mobile */
+
+.flexRow :global(.vtex-store-components-3-x-container) {
+	padding: 0;
+}
+.flexRow--text-header-top :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	background: #000;
+	height: 48px;
+	text-align: center;
+	font-size: 14px;
+	padding: 0 20px;
+	line-height: 14px;
+}
+
+.flexRow--footer-top-row-Mobile {
+	display: flex;
+	background-color: #000;
+	color: #fff;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.flexRowContent--footer-mns-top-Mobile :global(.vtex-rich-text-0-x-paragraph--init-mns) {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 30px;
+}
+
+.flexRowContent--footer-mns-top-Mobile :global(.vtex-store-newsletter-1-x-newsletterForm) {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.flexRowContent--footer-mns-top-Mobile :global(.vtex-input-prefix__group) {
+	background-color: #4a4a4a;
+	border-radius: 0;
+	border: none;
+}
+.flexRowContent--footer-mns-top-Mobile :global(.vtex-styleguide-9-x-input) {
+	background-color: #4a4a4a;
+	border: none;
+}
+.flexRowContent--footer-mns-top-Mobile :global(.vtex-button) {
+	margin-top: 5px;
+	width: 100%;
+	background-color: #fff;
+	color: #000;
+	font-size: 19px;
+	font-weight: 700;
+	border-radius: 0;
+	border: 1px solid #fff;
+}
+.flexRowContent--footer-mns-top-Mobile :global(.vtex-button):hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.flexRowContent--footer-bot-row-Mobile
+	:global(.vtex-flex-layout-0-x-flexRowContent--row-bot-logo-Mobile) {
+	display: flex;
+	gap: 0;
+}
+
+.flexRow--footer-bot-row-Mobile {
+	background-color: #000;
+}
+.flexRow--footer-bot-row-Mobile :global(.vtex-flex-layout-0-x-flexRow--footer-bot-logo-Mobile) {
+	padding-top: 15px;
+}
+
+.flexRow--footer-foot {
+	margin-top: 20px;
+	background-color: #fff;
+	font-size: 20px;
+}
+.flexRow--footer-foot :global(.vtex-rich-text-0-x-paragraph--foot-footer) {
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+}
+.stretchChildrenWidth :global(.vtex-flex-layout-0-x-flexRowContent--pagos-img) {
+	margin-top: 20px;
+	display: flex;
+}
+
+.flexRow--main-header-mobile :global(.vtex-minicart-2-x-cartIcon),
+.flexRow--main-header-mobile :global(.vtex-login-2-x-profileIcon) {
+	width: 24px;
+	height: 24px;
+	color: #000000;
+}
+
+.flexRow--row-shelf-mobile {
+	max-height: 650px;
+}
+
+.flexRow--row-shelf-mobile :global(.vtex-shelf-1-x-dot) {
+	background-color: transparent;
+}
+
+.flexRow--row-shelf-mobile :global(.vtex-shelf-1-x-title--shelf-home-bot-mobile) {
+	text-align: center;
+	font-size: 21px;
+	font-weight: 700;
+	color: #000;
+}
+.flexRow--main-header-mobile {
+	display: flex;
+	height: 80px;
+}
+
+.flexRow--main-header-mobile :global(.vtex-category-menu-2-x-sidebarContainer) {
+	display: flex;
+	align-items: center;
+}
+
+.flexRowContent--main-header-mobile :global(.vtex-styleguide-9-x-input) {
+	height: 50px;
+	display: none;
+}
+
+.flexRowContent--main-header-mobile :global(.vtex-styleguide-9-x-input):hover {
+	display: flex;
+	position: absolute;
+	left: 0;
+	top: 30vw;
+	width: 100vw;
+	background: #fff;
+}
+.flexRowContent--main-header-mobile :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+	display: flex;
+	position: absolute;
+	top: 15vw;
+	right: -120px;
+}
+
+.flexRow--footer-foot {
+	text-align: center;
+	margin: 0;
+	padding: 0 auto;
+}
+.flexRow--footer-foot :global(.vtex-rich-text-0-x-paragraph) {
+	font-size: 16px;
+}
+
+.flexRow--footer-bot-logo-Mobile :global(.vtex-menu-2-x-styledLinkContent) {
+	padding: 10px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav) {
+	margin: 10px 0;
+}
+
+.flexRowContent--pagos-img {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+/* =========================== pdp */
+.flexRow--row-init-mns-pdp :global(.vtex-flex-layout-0-x-flexRowContent--row-init-mns-pdp) {
+	background: #004701;
+	max-height: 70px;
+}
+
+.flexRow--row-init-mns-pdp :global(.vtex-rich-text-0-x-paragraph--init-mns) {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/* =================================== COL DERECHA */
+
+.flexRowContent--product-main {
+	padding-left: 10px;
+}
+.flexRowContent--product-main :global(.vtex-button) {
+	color: #ffffff;
+	background-color: #000;
+	border: none;
+	border-radius: 0;
+	width: 300px;
+	height: 56px;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 20px;
+}
+
+.flexRowContent--product-main :global(.vtex-button):hover {
+	cursor: pointer;
+}
+
+.flexRow :global(.vtex-product-price-1-x-sellingPrice--hasListPrice) {
+	font-size: 38px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.flexRow :global(.vtex-product-price-1-x-listPriceValue) {
+	font-size: 18px;
+	font-weight: bold;
+}
+.flexRow :global(.vtex-store-components-3-x-productNameContainer) {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.flexRow--quantity-row :global(.vtex-flex-layout-0-x-flexColChild) {
+	display: flex;
+}
+.flexRow--quantity-row :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+	display: contents;
+}
+.flexRow--quantity-row :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+	color: #000;
+	margin: 10px;
+}
+.flexRow--quantity-row :global(.vtex-numeric-stepper__input),
+.flexRow--quantity-row :global(.vtex-numeric-stepper__minus-button),
+.flexRow--quantity-row :global(.vtex-numeric-stepper__plus-button) {
+	height: 34px;
+	border: 1px solid #000;
+	border-radius: 0;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.flexRowContent--product-main :global(.vtex-store-components-3-x-shareContainer) {
+	margin: 20px 20px 20px 0;
+	display: flex;
+	align-items: center;
+}
+:global(.vtex-store-components-3-x-shareSocialIcon) {
+	color: #000;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++ */
+
+.flexRow--shelf-producto :global(.vtex-button) {
+	margin: 0 auto;
+	width: 170px;
+	height: 30px;
+	border-radius: 0;
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.flexRow--shelf-producto :global(.vtex-button):hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.flexRow--shelf-producto :global(.vtex-product-summary-2-x-sellingPrice) {
+	color: #000;
+	font-weight: bold;
+	font-size: 20px;
+}
+.flexRow--shelf-producto :global(.vtex-product-summary-2-x-price_listPrice),
+.flexRow--shelf-producto :global(.vtex-product-summary-2-x-brandName) {
+	color: #000;
+	font-size: 16px;
+}
+.flexRow--shelf-producto :global(.vtex-slider-0-x-dotsContainer) {
+	display: none;
+}
+.flexRowContent--shelf-producto-mobile :global(.vtex-slider-0-x-dotsContainer) {
+	display: none;
+}
+
+/* =======================================================  PLP*/
+
+:global(.vtex-search-result-3-x-searchResultContainer) {
+	margin-top: 50px;
+}
+
+.flexCol--contCol-der :global(.vtex-button) {
+	margin: 0 auto;
+	width: 170px;
+	height: 30px;
+	border-radius: 0;
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+.flexCol--contCol-der :global(.vtex-button):hover {
+	background-color: #000;
+	color: #fff;
+}
+.flexCol--contCol-der :global(.vtex-product-summary-2-x-price_sellingPrice) {
+	color: #000;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.flexCol--contCol-der :global(.vtex-product-summary-2-x-productBrand) {
+	color: #000;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.flexCol--contCol-der :global(.vtex-product-summary-2-x-price_listPriceContainer) {
+	color: #000;
+	font-size: 16px;
+}
+
+.flexColChild--filterCol-izq {
+	width: 300px;
+}
+
+.flexColChild--filterCol-izq :global(.vtex-search-result-3-x-filterMessage) {
+	display: none;
+}
+.flexColChild--filterCol-izq :global(.vtex-search-result-3-x-filterTitle) {
+	font-size: 14px;
+}
+
+.flexRow--orderByCol :global(.vtex-search-result-3-x-orderByText) {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+
+.flexRow--orderByCol :global(.vtex-search-result-3-x-filterPopupTitle) {
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+}
+.flexRow--orderByCol :global(.vtex-search-result-3-x-orderByButton) {
+	padding: 0;
+	margin: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--orderByCol) {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: end;
+}
+
+.flexRow--result-container :global(.vtex-slider__base-internal) {
+	background-color: #000;
+}
+
+.flexRow--result-container :global(.vtex-slider__selector) {
+	border: 1px solid #000;
+	background-color: #fff;
+}
+.flexRow--result-container :global(.vtex-search-result-3-x-filterTitleSpan) {
+	font-weight: bold;
+	color: #000;
+}
+.flexRow--result-container :global(.vtex-checkbox__inner-container) {
+	border: 1px solid #000;
+}
+.flexRow--result-container :global(.vtex-checkbox__label) {
+	letter-spacing: 1px;
+}
+
+.flexRowContent--minicart-footer :global(.vtex-button) {
+	border: none;
+	border-radius: 0;
+	background-color: #000;
+}
+
+.flexRowContent--minicart-footer :global(.vtex-button__label) {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.flexRowContent--minicart-footer :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.flexRowContent--minicart-footer :global(.vtex-checkout-summary-0-x-price) {
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.flexRowContent--minicart-footer :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+}

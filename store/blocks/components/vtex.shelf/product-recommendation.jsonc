@@ -1,0 +1,25 @@
+{
+	"shelf.relatedProducts": {
+		"props": {
+			"recommendation": "buy",
+			"productList": {
+				"itemsPerPage": 4,
+				"minItemsPerPage": 2,
+				"titleText": "PODRÍA INTERESARTE"
+			}
+		},
+		"blocks": ["product-summary.shelf"]
+	},
+	"shelf#shelf-home": {
+		"blocks": ["product-summary.shelf"],
+		"props": {
+			"blockClass": "shelf-home-bot"
+		}
+	},
+	"shelf#shelf-home-mobile": {
+		"blocks": ["product-summary.shelf#mobile"],
+		"props": {
+			"blockClass": "shelf-home-bot-mobile"
+		}
+	}
+}

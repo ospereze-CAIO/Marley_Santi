@@ -1,0 +1,170 @@
+{
+	"list-context.info-card-list#home": {
+		"children": ["slider-layout#home-infocards"],
+		"props": {
+			"infoCards": [
+				{
+					"id": "info-card-#1",
+					"isFullModeStyle": true,
+					"textPosition": "left",
+					// "imageUrl": "https://dummyimage.com/1920x700/444/d4d4d4",
+					"imageUrl": "https://www.itsitio.com/wp-content/uploads/d/ronan-marley-house-of-marley-itsitio-2.jpg",
+					"headline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+					"callToActionText": "COMPRAR",
+					"callToActionUrl": "/",
+					"blockClass": "info-card-example",
+					"textAlignment": "center"
+				},
+				{
+					"id": "info-card-#2",
+					"isFullModeStyle": true,
+					"textPosition": "left",
+					// "imageUrl": "https://dummyimage.com/1920x700/333/d4d4d4",
+					"imageUrl": "https://yourtechspace.com/wp-content/uploads/2021/12/download-1170x780.jpg",
+					"headline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+					"callToActionText": "COMPRAR",
+					"callToActionUrl": "/",
+					"blockClass": "info-card-example",
+					"textAlignment": "center"
+				},
+				{
+					"id": "info-card-#3",
+					"isFullModeStyle": true,
+					"textPosition": "left",
+					// "imageUrl": "https://dummyimage.com/1920x700/222/d4d4d4",
+					"imageUrl": "https://lacomparacion.com/wp-content/uploads/2021/08/1628692345_Los-auriculares-inalambricos-duraderos-de-House-of-Marley-reflejan-una-1080x675.jpg",
+					"headline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+					"callToActionText": "COMPRAR",
+					"callToActionUrl": "/",
+					"blockClass": "info-card-example",
+					"textAlignment": "center"
+				},
+				{
+					"id": "info-card-#4",
+					"isFullModeStyle": true,
+					"textPosition": "left",
+					// "imageUrl": "https://dummyimage.com/1920x700/111/d4d4d4",
+					"imageUrl": "https://www.como5.com/wp-content/uploads/2021/02/Revision-Auriculares-para-colocar-sobre-las-orejas-ANC-Legend-de.jpg",
+					"headline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+					"callToActionText": "COMPRAR",
+					"callToActionUrl": "/",
+					"blockClass": "info-card-example",
+					"textAlignment": "center"
+				}
+			]
+		}
+	},
+	"list-context.info-card-list#home-audifonos": {
+		"children": ["slider-layout#infocard-audifonos"],
+		"props": {
+			"infoCards": [
+				{
+					"id": "info-card-#audifonos",
+					"isFullModeStyle": true,
+					"textPosition": "right",
+					// "imageUrl": "https://dummyimage.com/1920x440/333/d4d4d4",
+					"imageUrl": "https://i.blogs.es/fdfb09/house-of-marley/1366_2000.jpg",
+					"headline": "AUDÍFONOS",
+					"callToActionText": "VER TODO",
+					"callToActionUrl": "/sale/d",
+					"blockClass": "info-card-audifonos",
+					"textAlignment": "center"
+				}
+			]
+		}
+	},
+	"list-context.info-card-list#home-perlantes": {
+		"children": ["slider-layout#infocard-parlantes"],
+		"props": {
+			"infoCards": [
+				{
+					"id": "info-card-#perlantes",
+					"isFullModeStyle": true,
+					"textPosition": "left",
+					// "imageUrl": "https://dummyimage.com/1920x440/333/d4d4d4",
+					"imageUrl": "https://i.ytimg.com/vi/AhzpEDntkP8/maxresdefault.jpg",
+					"headline": "PARLANTES",
+					"callToActionText": "VER TODO",
+					"callToActionUrl": "/sale/d",
+					"blockClass": "info-card-perlantes",
+					"textAlignment": "center"
+				}
+			]
+		}
+	},
+
+	"list-context.info-card-list#home-tornamesas": {
+		"children": ["slider-layout#infocard-tornamesas"],
+		"props": {
+			"infoCards": [
+				{
+					"id": "info-card-#tornamesas",
+					"isFullModeStyle": true,
+					"textPosition": "right",
+					// "imageUrl": "https://dummyimage.com/1920x440/333/d4d4d4",
+					"imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_MX/images/products/1000/1000228266cv14a.jpg",
+					"headline": "TORNAMESAS",
+					"callToActionText": "VER TODO",
+					"callToActionUrl": "/sale/d",
+					"blockClass": "info-card-tornamesas",
+					"textAlignment": "center"
+				}
+			]
+		}
+	},
+
+	"list-context.info-card-list#infocard-bot": {
+		"children": ["slider-layout#infocard-bot"],
+		"props": {
+			"infoCards": [
+				{
+					"id": "info-card-#infocard-bot",
+					"textPosition": "center",
+					"isFullModeStyle": false,
+					"imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREudyPGCXR44kUrNS11J00QKLuIbsbiWaang&usqp=CAU",
+					"headline": "FUNDACIÓN REFORESTEMOS",
+					"callToActionText": "VER TODO",
+					"callToActionUrl": "/sale/d",
+					"blockClass": "infocard-bot",
+					"textAlignment": "center"
+				}
+			]
+		}
+	},
+	"list-context.info-card-list#infocard-bot-1": {
+		"children": ["slider-layout#infocard-bot"],
+		"props": {
+			"infoCards": [
+				{
+					"id": "info-card-#infocard-bot",
+					"textPosition": "center",
+					"isFullModeStyle": false,
+					"imageUrl": "https://www.colprinter.com/images/Noticias/empaques-ecologicos-institucionales-1.jpg",
+					"headline": "FUNDACIÓN REFORESTEMOS",
+					"callToActionText": "VER TODO",
+					"callToActionUrl": "/sale/d",
+					"blockClass": "infocard-bot",
+					"textAlignment": "center"
+				}
+			]
+		}
+	},
+	"list-context.info-card-list#infocard-bot-2": {
+		"children": ["slider-layout#infocard-bot"],
+		"props": {
+			"infoCards": [
+				{
+					"id": "info-card-#infocard-bot",
+					"textPosition": "center",
+					"isFullModeStyle": false,
+					"imageUrl": "https://i.pinimg.com/600x315/47/5b/8c/475b8c36976ad2c5b0f4eb3f3cfb3c1d.jpg",
+					"headline": "FUNDACIÓN REFORESTEMOS",
+					"callToActionText": "VER TODO",
+					"callToActionUrl": "/sale/d",
+					"blockClass": "infocard-bot",
+					"textAlignment": "center"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"footer-layout.mobile": {
+		"children": [
+			"flex-layout.row#footer-top-Mobile",
+			"flex-layout.row#footer-bot-Mobile",
+			"flex-layout.row#footer-foot-Mobile"
+		]
+	}
+}

@@ -1,0 +1,100 @@
+{
+	"logo#desktop": {
+		"props": {
+			"title": "Logo",
+			"href": "/",
+			// "url": "https://dummyimage.com/78x46/000/fff&text=logo",
+			"url": "https://houseofmarley.vtexassets.com/assets/vtex.file-manager-graphql/images/88f1b13e-e59e-463a-9ede-2548dc248db9___6609f889ffc25102915d46449a62f95a.png"
+		}
+	},
+	"image#icono-bolsa": {
+		"props": {
+			"src": "https://grupocaiopartnerco.myvtex.com/arquivos/bolsaeco-icono.png",
+			"maxHeight": 54
+		}
+	},
+	"image#icono-hoja": {
+		"props": {
+			"src": "https://grupocaiopartnerco.myvtex.com/arquivos/hoja-icono.png",
+			"maxHeight": 54
+		}
+	},
+	"image#icono-camion": {
+		"props": {
+			"src": "https://grupocaiopartnerco.myvtex.com/arquivos/camion-icono.png",
+			"maxHeight": 54
+		}
+	},
+	"image#icono-tarjetas": {
+		"props": {
+			"src": "https://grupocaiopartnerco.myvtex.com/arquivos/tarjetas-icono.png",
+
+			"maxHeight": 54
+		}
+	},
+
+	"logo#footer": {
+		"props": {
+			"title": "Logo-footer",
+			"href": "/",
+			"url": "https://houseofmarley.vtexassets.com/assets/vtex/assets-builder/houseofmarley.store-theme/0.9.6/img/thom_logo___d41e27f21e360b14e07d7c85c15e3138.png"
+		}
+	},
+	"image#footer-2": {
+		"props": {
+			"src": "https://houseofmarley.vtexassets.com/assets/vtex/assets-builder/houseofmarley.store-theme/0.9.6/img/thom_logo___d41e27f21e360b14e07d7c85c15e3138.png",
+			"maxWidth": 80,
+			"maxHeight": 50
+		}
+	},
+	"image#webpay": {
+		"props": {
+			"src": "https://houseofmarley.vtexassets.com/assets/vtex/assets-builder/houseofmarley.store-theme/0.15.1/img/mercadopago_logo___b07d41de8fb6b9af87195a7201cf6276.png",
+			"maxWidth": 100,
+			"maxHeight": 30
+		}
+	},
+	"image#mercado-pago": {
+		"props": {
+			"src": "https://houseofmarley.vtexassets.com/assets/vtex/assets-builder/houseofmarley.store-theme/0.15.1/img/webpay_logo___159491cbed6bf7c0f77c13fbc7e33d19.png",
+			"maxWidth": 100,
+			"maxHeight": 100
+		}
+	},
+	"image#facebook": {
+		"props": {
+			// "src": "https://dummyimage.com/30x30/444/fff"
+			"src": "https://houseofmarley.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.24.1/public/react/ebd4bd10e66138168eb6a582e00790ea.svg",
+			"maxWidth": 30,
+			"maxHeight": 30
+		}
+	},
+	"image#instagram": {
+		"props": {
+			"src": "https://houseofmarley.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.24.1/public/react/6a61a302319c062aceb9562a66381a63.svg",
+			"maxWidth": 30,
+			"maxHeight": 30
+		}
+	},
+	"image#youtube": {
+		"props": {
+			"src": "https://houseofmarley.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.24.1/public/react/20a214b4866fd6d42a6dfed070c0057b.svg",
+			"maxWidth": 30,
+			"maxHeight": 30
+		}
+	},
+	"image#search-icon": {
+		"props": {
+			"blockClass": "search-icon",
+			"src": "https://grupocaiopartnerco.myvtex.com/arquivos/search-icon.png",
+			"maxWidth": 24,
+			"maxHeight": 24
+		}
+	},
+	"image#banner-plp": {
+		"props": {
+			// "src": "https://dummyimage.com/1920x350/444/fff"
+			"src": "https://houseofmarley.vtexassets.com/assets/vtex.file-manager-graphql/images/038dccb4-3d1f-4403-9c16-a1eebdb267c2___a8c946f6264fbc56a6194858d3ae2b1a.jpg"
+		}
+	}
+}
