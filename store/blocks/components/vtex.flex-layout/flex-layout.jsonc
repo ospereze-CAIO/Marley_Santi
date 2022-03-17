@@ -148,7 +148,7 @@
 			"verticalAlign": "center",
 			"width": "33.33%"
 		},
-		"children": ["list-context.info-card-list#infocard-bot"]
+		"children": ["grupocaiopartnerco-Info-Card-Custom"]
 	},
 	"flex-layout.col#col-infocard2": {
 		"props": {
@@ -157,7 +157,7 @@
 			"verticalAlign": "center",
 			"width": "33.33%"
 		},
-		"children": ["list-context.info-card-list#infocard-bot-1"]
+		"children": ["grupocaiopartnerco-Info-Card-Custom"]
 	},
 	"flex-layout.col#col-infocard3": {
 		"props": {
@@ -166,7 +166,7 @@
 			"verticalAlign": "center",
 			"width": "33.33%"
 		},
-		"children": ["list-context.info-card-list#infocard-bot-2"]
+		"children": ["grupocaiopartnerco-Info-Card-Custom"]
 	},
 	"flex-layout.row#row-shelf-mobile": {
 		"props": {
@@ -196,13 +196,14 @@
 			"preventVerticalStretch": true
 		},
 		"children": [
-			"list-context.info-card-list#infocard-bot",
-			"list-context.info-card-list#infocard-bot-1",
-			"list-context.info-card-list#infocard-bot-2"
+			"flex-layout.col#col-infocard1",
+			"flex-layout.col#col-infocard2",
+			"flex-layout.col#col-infocard3"
 		]
 	},
 
 	// -=====================================================
+
 	"flex-layout.row#init-mns-pdp": {
 		"props": {
 			"blockClass": "row-init-mns-pdp",

@@ -1,0 +1,9 @@
+{
+	"grupocaiopartnerco-Info-Card-Custom": {
+		"children": ["flex-layout.row#info-card"]
+	},
+
+	"flex-layout.row#info-card": {
+		"children": ["grupocaiopartnerco-Info-Card-Custom.InfoCard"]
+	}
+}
