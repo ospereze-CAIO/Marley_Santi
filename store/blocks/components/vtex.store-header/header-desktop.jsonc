@@ -1,5 +1,6 @@
 {
 	"header-layout.desktop": {
+		"title": "Header Desktop",
 		"children": ["sticky-layout#desktop", "flex-layout.row#init-mns"]
 	},
 	"sticky-layout#desktop": {

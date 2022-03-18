@@ -50,7 +50,8 @@
     "vtex.store-newsletter": "1.x",
     "vtex.search": "2.x",
     "vtex.store-icons": "0.x",
-    "grupocaiopartnerco.info-card-custom": "0.x"
+    "grupocaiopartnerco.info-card-custom": "0.x",
+    "grupocaiopartnerco.render-manager": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

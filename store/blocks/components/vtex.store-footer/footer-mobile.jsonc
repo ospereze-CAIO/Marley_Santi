@@ -1,5 +1,6 @@
 {
 	"footer-layout.mobile": {
+		"title": "Footer Mobile",
 		"children": [
 			"flex-layout.row#footer-top-Mobile",
 			"flex-layout.row#footer-bot-Mobile",

@@ -1,0 +1,21 @@
+{
+	"store.custom.render": {
+		"children": ["render-manager-custom"]
+	},
+	"render-manager-custom": {
+		"children": [
+			"list-context.info-card-list#home",
+			"slider-layout#logos-home",
+			"list-context.info-card-list#home-audifonos"
+		],
+		"props": {
+			"list": [
+				{ "key": "list-context.info-card-list#home", "name": "list Context" },
+
+				{ "key": "slider-layout#logos-home", "name": "Slider" },
+
+				{ "key": "list-context.info-card-list#home-audifonos", "name": "infocard" }
+			]
+		}
+	}
+}
